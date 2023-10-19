@@ -52,10 +52,6 @@ const Home = () => {
                     backgroundImage: `url(${background})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover'
-
-
-
-
                 }}>
                     <strong>room</strong>
                     <ul>
@@ -67,11 +63,11 @@ const Home = () => {
                     </ul>
                 </nav>
                 <article>
-                    <h1>Discover innovate <span>ways to decorate</span></h1>
+                    <h1>Discover innovative <span>ways to decorate</span></h1>
                     <p>
                         We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.
                     </p>
-                    <button>SHOP <span>NOW</span> <img src={arrow} alt="arrow" /></button>
+                    <button className='shop'>SHOP <span>NOW</span> <img src={arrow} alt="arrow" /></button>
 
                     <div>
                         <button onClick={prevBackground}>

@@ -7,7 +7,7 @@
         width: 100%;
 
         & nav {
-            width: 60%;
+            width: 55%;
             height: 600px;
             display: flex;
             gap: 40px;
@@ -23,13 +23,14 @@
                 list-style: none;
                 gap: 20px;
 
-                
+
 
             }
 
             & strong {
                 font-size: 22px;
             }
+
             & li:hover {
                 border-bottom: 1px solid white;
                 cursor: pointer;
@@ -39,12 +40,32 @@
         }
 
         & article {
-            width: 40%;
+            width: 45%;
             position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            gap: 20px;
+
+
+            & h1 {
+                display: flex;
+                flex-direction: column;
+                font-size: 45px;
+                margin-inline: 14%;
+                width: 72%;
+
+
+            }
+
+            & p {
+                margin-inline: 14%;
+                width: 72%;
+                color: gray;
+
+            }
+
 
             & div {
                 position: absolute;
@@ -64,9 +85,28 @@
                     }
                 }
 
-        
+
             }
         }
+    }
+
+}
+
+.shop {
+    display: flex;
+    background-color: transparent;
+    height: 40px;
+    border: none;
+    align-items: center;
+    width: 240px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-inline: 14%;
+    align-self: flex-start;
+    cursor: pointer;
+
+    &:hover {
+        opacity: .5;
     }
 
 }
